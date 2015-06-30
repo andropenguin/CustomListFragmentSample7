@@ -5,8 +5,6 @@ import android.support.v4.content.AsyncTaskLoader;
 import android.util.Log;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -14,7 +12,6 @@ import java.util.List;
  */
 public class CustomLoader extends AsyncTaskLoader<List<Entry>> {
 
-    List<Entry> list;
     static List<Entry> sOldList;
     static List<Entry> sData;
     int mCount;
